@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="14098" started-at="2018-04-01T16:35:19Z" finished-at="2018-04-01T16:35:34Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="14098" started-at="2018-04-01T16:35:19Z" finished-at="2018-04-01T16:35:34Z">
+      <class name="TestLoginPasswordYandexMail">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestLoginPasswordYandexMail@21bcffb5]" name="setUp" is-config="true" duration-ms="5151" started-at="2018-04-01T19:35:19Z" finished-at="2018-04-01T19:35:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLoginPassword()[pri:0, instance:TestLoginPasswordYandexMail@21bcffb5]" name="testLoginPassword" duration-ms="7036" started-at="2018-04-01T19:35:25Z" finished-at="2018-04-01T19:35:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestLoginPasswordYandexMail@21bcffb5]" name="tearDown" is-config="true" duration-ms="1911" started-at="2018-04-01T19:35:32Z" finished-at="2018-04-01T19:35:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestLoginPasswordYandexMail -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
