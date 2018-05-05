@@ -1,1 +1,5 @@
-WebDriverSingleton.class
+utils\PropertyProviderSingleton.class
+utils\Waiters\Wait.class
+Pages\BasePage.class
+Pages\HomePage.class
+Pages\LoginPasswordPage.class
