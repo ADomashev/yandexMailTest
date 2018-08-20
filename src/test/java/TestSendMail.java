@@ -11,10 +11,10 @@ public class TestSendMail extends BaseTest {
        // webDriver.get("https://yandex.by/");
        // PropertyProvider propertyProvider = new PropertyProvider("C:/Users/Lenovo/IdeaProjects/yandexMailTest/src/main/resources/prop.properties");
 
-        HomePage homePage = new HomePage(webDriver);
-        LoginPasswordPage loginPasswordPage = homePage.pressButtomEnter();
-        loginPasswordPage.enterLogin(propertyProvider.getProperty("loginSend"));
-        loginPasswordPage.enterPassword(propertyProvider.getProperty("passwordSend"));
+//        HomePage homePage = new HomePage(webDriver);
+//        LoginPasswordPage loginPasswordPage = homePage.pressButtomEnter();
+//        loginPasswordPage.enterLogin(propertyProvider.getProperty("loginSend"));
+//        loginPasswordPage.enterPassword(propertyProvider.getProperty("passwordSend"));
 
 
     }

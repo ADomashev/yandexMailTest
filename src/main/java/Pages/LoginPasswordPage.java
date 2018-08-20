@@ -31,4 +31,5 @@ public class LoginPasswordPage extends BasePage {
         enterButton.click();
         return new MailPage(webDriver);
     }
+
 }

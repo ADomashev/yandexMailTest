@@ -9,9 +9,9 @@ public class DataProvidersForYandex {
     @DataProvider
     public static Object[][] loginPasswordDataProvider(){
         return new Object[][]{
-                {propertyProvider.getProperty("notValidLogin"), propertyProvider.getProperty("notValidPassWord")},
-                {propertyProvider.getProperty("validLogin"),propertyProvider.getProperty("notValidPassWord")},
-                {propertyProvider.getProperty("notValidLogin"),propertyProvider.getProperty("validPassWord")},
-                {propertyProvider.getProperty("validLogin"),propertyProvider.getProperty("validPassWord")}};
+//                {false,propertyProvider.getProperty("notValidLogin"), propertyProvider.getProperty("notValidPassWord")},
+//                {false,propertyProvider.getProperty("validLogin"),propertyProvider.getProperty("notValidPassWord")},
+//                {false,propertyProvider.getProperty("notValidLogin"),propertyProvider.getProperty("validPassWord")},
+                {"ospza4etTestsending",propertyProvider.getProperty("validLogin"),propertyProvider.getProperty("validPassWord")}};
     }
 }

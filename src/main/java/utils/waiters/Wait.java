@@ -11,4 +11,8 @@ public class Wait {
     public void elementIsPresent(WebDriver webDriver, WebElement webElement){
         new WebDriverWait(webDriver,15).until(ExpectedConditions.elementToBeClickable(webElement));
     }
+
+    public void elementVisibleFull(WebDriver webDriver, WebElement webElement){
+        new WebDriverWait(webDriver,20).until(ExpectedConditions.visibilityOf(webElement));
+    }
 }
